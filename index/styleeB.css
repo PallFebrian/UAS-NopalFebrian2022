@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #EFEAD8;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #6D8B74, #5F7161);
+    padding: 0 !important
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*--------------Banner section-----------------*/
+
+#banner{
+    background-image: linear-gradient(to right,  #6D8B74, #5F7161);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-tittle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/*--------------merchandise----------------*/
+
+.kotak {
+    width: 300px !important;
+}
+
+/*-----------service section-----------*/
+
+#services{
+    padding: 80px 0;
+}
+
+.service img{
+    width: 100%;
+    margin-top: 20px ;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.tittle::before{
+    content: '';
+    background: #5F7161;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+
+.tittle::after{
+    content: '';
+    background: #5F7161;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,  #6D8B74, #5F7161) !important;
+}
+
+/*-------------about us-------------*/
+
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-tittle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+
+}
+
+#about-us ul li{
+    margin: 10px 0;
+
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+
+
+/*------------testimoni Section------------*/
+
+#testimoni{
+    margin: 100px 0;
+}
+
+.testimoni{
+    border-left: 4px solid #5F7161;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimoni img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px ;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*---------CONTACT US----------*/
+.CONTACT {
+    display: flex;
+    justify-content: space-between;
+}
+.CONTACT textarea {
+    width: 800px;
+}
+.CONTACT img{
+    width: 350px;
+}
+
+/*-----------social media------------*/
+
+#social-media{
+     background: #f8f9fa;
+     padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icon img{
+    width: 60px;
+    transition: 0.5s;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+/*------------footer------------*/
+
+#footer{
+    background-image: linear-gradient(to right,  #6D8B74, #5F7161);
+    color: #fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.bsd img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+

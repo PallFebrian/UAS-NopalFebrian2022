@@ -1,0 +1,64 @@
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+
+
+.green{
+    background: green;
+    color: white;
+}
+
+.yellow{
+    background: yellow;
+    color: white;
+}
+
+.red{
+    background: red;
+    color: white;
+}
+
+.blue{
+    background: blue;
+    color: white;
+}
+
+.orange{
+    background: orange;
+    color: white;
+}
+
+.purple{
+    background: purple;
+    color: white;
+}
+
+.black{
+    background: black;
+    color: white;
+}
+
+.skyblue{
+    background: skyblue;
+    color: white;
+}
+
+.crimson{
+    background: crimson;
+    color: white;
+}
+
+.cream{
+    background-color: burlywood;
+    color: white;
+}
+
+.krim{
+    background-color: bisque;
+    color:grey;
+}
+.grey{
+    background: grey;
+}
