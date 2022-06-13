@@ -230,16 +230,14 @@ body{
 .footer-box{
     padding: 20px;
 }
-.footer-box img{
-    width: 120px;
-    margin-bottom: 20px;
-}
 
-.bsd img{
-    width: 200px;
-    height: 200px;
-}
+#footer .footer-box { 
+  text-align: center !important;
+} 
 
+ #footer  span{
+    color: bisque;
+ }
 
 
 
