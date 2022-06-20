@@ -192,6 +192,24 @@ body{
     width: 350px;
 }
 
+#CONTACT .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,  #6D8B74, #5F7161) !important;
+}
+
+#CONTACT form #nama_error, #CONTACT form #email_error, #CONTACT form #subject_error, #CONTACT form #pesan_error {
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: #ff33339f;
+    color: red;
+    display: none;
+}
+
 /*-----------social media------------*/
 
 #social-media{
